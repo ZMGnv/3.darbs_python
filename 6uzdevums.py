@@ -18,4 +18,7 @@ def time():
 label = Label(plkst, font = "ds-digital 100", background = "black", foreground = "cyan")
 label.pack(anchor = "sw")
 time()
-mainloop()
+plkst.mainloop()
+
+
+
