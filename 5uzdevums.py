@@ -6,7 +6,7 @@ dubultu.
 """
 a=int(input("Ievadi skaitli: "))
 sum=a-17
-if sum>17 and sum>0:
-    print("Starpības dubulta summa: ",sum*2)
+if sum>17:
+    print("Starpības dubulta summa: ",Math.abs(sum*2))
 else:
     print("Starpība: ",sum)
